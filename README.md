@@ -68,3 +68,24 @@ pipwin install pyaudio
 
 ▶️ Run the Assistant
 python vani_voice_assistant.py
+
+4.# 🎮 Rock, Paper, Scissors Game ✂️🪨📄
+
+A simple **console-based** Rock, Paper, Scissors game in Python where you play against the computer. 🖥️🤖 The game keeps track of scores and lets you play multiple rounds until you decide to quit. 🏆
+
+## ✨ Features
+
+- 🎯 Play multiple rounds against the computer.
+- 📊 Running score for both player and computer.
+- 🚪 Type `quit` anytime to exit the game.
+- 🐍 Beginner-friendly Python code.
+
+## 🏃 How to Run
+
+1. Make sure Python 3 is installed. 🐍
+2. Clone this repository or download the script. 📥
+3. Open a terminal or command prompt in the project folder. 💻
+4. Run the game:
+
+```bash
+python rock_paper_scissors.py
