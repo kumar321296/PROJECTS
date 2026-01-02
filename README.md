@@ -1,91 +1,89 @@
+# 🎮 Python Mini Games
+
+This repository contains **three fun Python games** built for beginners using the Python programming language:
+
+1. **Snake Game** 🐍 – Classic snake game using `turtle`.
+2. **Rock–Paper–Scissors** ✂️ – Play against the computer.
+3. **Guess the Number** 🔢 – Guess a number between 1 and 100.
 
 
-🧠 Python Mini Projects
+## 🛠 Features
 
-This repository contains three beginner-friendly Python projects that showcase different functionalities — from games to voice-controlled assistants. Each project is self-contained and demonstrates fundamental programming concepts.
+* **Snake Game**
 
-📁 Projects
-1. 🎯 Guess the Number (CLI Game)
+  * Move with arrow keys
+  * Eat food to grow
+  * Score and high score tracking
+  * Collision detection with walls and self
 
-A terminal-based guessing game where the user tries to guess a randomly selected number between 1 and 100.
+* **Rock–Paper–Scissors**
 
-📌 Features
+  * Input your choice (`rock`, `paper`, `scissors`)
+  * Play against a random computer choice
+  * Keeps score for multiple rounds
+  * Exit anytime by typing `quit`
 
-Random number generation
+* **Guess the Number**
 
-Unlimited guesses
+  * Random number between 1 and 100
+  * Input validation for numbers
+  * Keeps track of attempts
+  * Provides hints if your guess is too high or low
 
-Input validation
+## 💻 Getting Started
 
-Feedback for each attempt
+### Prerequisites
 
-▶️ Run the Game
-python guess_the_number.py
+* Python 3.x installed
+* Recommended: [VS Code](https://code.visualstudio.com/) or any Python IDE
 
-2. 🐍 Snake Game (Turtle Graphics)
+### Installation
 
-A classic Snake game made with Python’s turtle graphics module. Eat food, grow your snake, and avoid collisions with the walls or yourself.
-
-📌 Features
-
-Real-time movement with arrow keys
-
-Score and high score tracking
-
-Snake grows after eating food
-
-Restarts automatically on collision
-
-▶️ Run the Game
-python snake_game.py
-
-
-💡 Make sure your screen supports GUI rendering (not compatible with pure terminal environments like some SSH sessions).
-
-3. 🗣️ Vani - Voice Assistant
-
-Vani is a voice-controlled assistant that can open local apps and popular websites based on your spoken commands.
-
-📌 Features
-
-Voice recognition (speech_recognition)
-
-Text-to-speech feedback (pyttsx3)
-
-Opens common apps like Notepad, Chrome, VS Code, etc.
-
-Opens websites like Google and YouTube
-
-Tracks opened apps/websites to avoid duplicates
-
-🛠 Requirements
-pip install speechrecognition pyttsx3
-pip install pipwin
-pipwin install pyaudio
-
-
-✅ Make sure your microphone is enabled and working.
-
-▶️ Run the Assistant
-python vani_voice_assistant.py
-
-4.# 🎮 Rock, Paper, Scissors Game ✂️🪨📄
-
-A simple **console-based** Rock, Paper, Scissors game in Python where you play against the computer. 🖥️🤖 The game keeps track of scores and lets you play multiple rounds until you decide to quit. 🏆
-
-## ✨ Features
-
-- 🎯 Play multiple rounds against the computer.
-- 📊 Running score for both player and computer.
-- 🚪 Type `quit` anytime to exit the game.
-- 🐍 Beginner-friendly Python code.
-
-## 🏃 How to Run
-
-1. Make sure Python 3 is installed. 🐍
-2. Clone this repository or download the script. 📥
-3. Open a terminal or command prompt in the project folder. 💻
-4. Run the game:
+1. **Clone the repository**
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/python-mini-games.git
+
+2. **Navigate to the folder**
+
+```bash
+cd python-mini-games
+
+3. **Run a game**
+
+```bash
+python snake_game.py
 python rock_paper_scissors.py
+python guess_the_number.py
+
+> Replace `python` with `python3` if needed on Mac/Linux.
+
+
+## 🎯 How to Play
+
+### Snake
+
+* Use **arrow keys** to move
+* Eat the **red circle** to grow
+* Avoid walls and your own body
+
+### Rock–Paper–Scissors
+
+* Type `rock`, `paper`, or `scissors`
+* Type `quit` to exit
+* Compare your choice with the computer’s choice
+
+### Guess the Number
+
+* Enter a number between **1 and 100**
+* You will be told if your guess is **too high** or **too low**
+* Continue guessing until correct
+
+## 📝 Notes
+
+* All games are **text-based except Snake**, which uses `turtle` graphics.
+* High score in Snake resets when the program is closed.
+* Python basics like loops, functions, and conditionals are used in all games.
+
+
+
